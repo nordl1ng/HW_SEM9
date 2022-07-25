@@ -18,9 +18,14 @@ int Akkerman(int m, int n)
     {
         return Akkerman(m - 1, 1);
     }
-    else
+    else 
     if (m > 0 && n > 0)
     {
         return Akkerman(m - 1, Akkerman(m, n - 1));
     }
+    return n +1;
+    System.Console.WriteLine(n+1);;
 }
+
+int b = Akkerman(m,n);
+System.Console.WriteLine(b);
