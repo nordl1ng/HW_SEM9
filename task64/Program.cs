@@ -6,7 +6,7 @@ void SumDigits(int m, int n, int summ = 0)
 {
     if (m > n)
     {
-        System.Console.WriteLine(summ);
+        System.Console.WriteLine($"Cумма натуральных элементов в промежутке от M до N равна {summ}");
         return;
     }
     summ = summ + m;
